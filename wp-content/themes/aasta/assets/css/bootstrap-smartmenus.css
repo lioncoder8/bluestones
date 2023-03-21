@@ -1,0 +1,588 @@
+/*
+Name: bootstrap-smartmenus.css
+*/
+
+/* Carets in collapsible mode (make them look like +/- buttons) */
+
+.navbar { 
+	background-color: #292b32;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 0rem;
+	padding-right: 0rem;
+	opacity: 1;
+}
+.m-right-auto {
+    margin-right: unset!important;
+    margin-left: auto;
+}
+.m-right-left-auto {
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar>.container {
+    display: block;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+/*--------------------------------------------------
+=>> Site Branding Text & Navar Brand
+--------------------------------------------------*/
+
+.navbar-brand {
+    padding-top: 0.375rem;
+    padding-bottom: 0.375rem;
+}
+.site-branding-text {
+	margin-right: 1rem;
+	display: inline-block;
+}
+.site-branding-text .site-title {
+    font-size: 1.6rem;
+    line-height: inherit;
+    white-space: normal;
+	letter-spacing: 3px;
+    line-height: 1.2;
+    margin: -2px 0 0;
+}
+.site-branding-text .site-description {
+	line-height: 1.4;
+	padding-top: 0.063rem;
+}
+.navbar.header-fixed-top .sticky-navbar-brand .custom-logo { 
+	max-width: 100%;
+	height: auto;
+}
+.navbar.header-fixed-top .sticky-navbar-brand {
+	margin-right: 1rem;
+}
+.navbar .row.align-self-center {
+	margin-left: 0;
+	margin-right: 0;
+}
+.navbar-brand, .sticky-navbar-brand {
+	float: left;
+}
+.navbar.header-fixed-top .site-branding-text .site-title a {
+	color: #fff;
+}
+.navbar.header-fixed-top .site-branding-text .site-description {
+	color: #fff;
+}
+
+/*Toggle Button*/
+.navbar .navbar-toggler {
+	float: right;
+	margin-top: 0.238rem;
+	border-color: rgba(0, 0, 0, 1);
+	border-radius: 0;
+	height: auto;
+}
+.navbar .navbar-toggler:hover, 
+.navbar .navbar-toggler:focus {
+	background-color: transparent;	
+	border-radius: 0;
+}  
+.navbar .navbar-toggler-icon {	
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(51, 51, 51, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+	width: 2rem;
+}
+.navbar.header-fixed-top .navbar-toggler {
+	border-color: rgba(255, 255, 255, 1);	
+}
+.navbar.header-fixed-top .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+/*Menu & Dropdown Css*/
+.navbar .nav .menu-item {
+    margin-right: 2.188rem;
+}
+.navbar .nav .menu-item:last-child {
+    margin-right: 0px;
+}
+.navbar .nav .menu-item .nav-link {
+    font-weight: 500;
+    color: #fff;
+    padding: 0;
+    font-size: 1rem;
+}
+.dropdown-menu {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar .nav .dropdown-menu { 
+	border-radius: 0;
+	border: none;
+	padding: 0;
+	font-size: 0.85rem;
+}
+.navbar .nav .dropdown-item {
+	padding: 0.75rem 1.125rem;
+}
+.navbar .nav .dropdown-item:hover {
+	padding-left: 1.375rem;
+} 
+.navbar .nav .menu-item .dropdown-item {
+    color: #fff;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 0.938rem;
+	transition: .3s;
+}
+.navbar .nav .dropdown-menu .menu-item { 
+	margin-right: 0;
+}
+.navbar .nav .dropdown-item.active, 
+.navbar .nav .dropdown-item:active {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar .nav .dropdown-menu > .menu-item > ul.dropdown-menu > .menu-item > .dropdown-item {
+	color: #fff;
+}
+a.bg-light:focus, a.bg-light:hover { 
+	background-color: transparent !important;
+}
+.navbar.header-fixed-top .nav .menu-item .nav-link, 
+.navbar.header-fixed-top .nav a.cart-icon, 
+.navbar.header-fixed-top .nav .theme-search-block a, 
+.navbar.header-fixed-top .nav .btn-border {
+    color: #fff;
+}
+
+/*Navbar Header Wrap and Navbar Classic Header*/
+.navbar-header-wrap.classic-header.not-sticky {
+	background-color: rgba(0, 0, 0, 0.6);
+}	
+.navbar-header-wrap {
+	background-color: rgba(0, 0, 0, 0);
+	position: absolute;
+	right: 0;
+	left: 0;
+	z-index: 2;
+}
+.navbar-header-wrap .site-branding-text .site-title a {
+	color: #fff;
+}
+.navbar-header-wrap .site-branding-text .site-description {
+	color: #fff;
+}
+.navbar.navbar-header-wrap.header-fixed-top .site-branding-text .site-title a {
+	color: #fff;
+}
+.navbar.navbar-header-wrap.header-fixed-top .site-branding-text .site-description {
+	color: #fff;
+}
+.navbar.navbar-header-wrap .navbar-toggler {
+	border-color: rgba(255, 255, 255, 1);	
+}
+.navbar.navbar-header-wrap .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar.navbar-header-wrap.header-fixed-top {
+    background-color: #292b32;
+}
+.navbar.navbar-header-wrap.header-fixed-top .navbar-toggler {
+	border-color: rgba(255, 255, 255, 1);	
+}
+.navbar.navbar-header-wrap.header-fixed-top .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar.navbar-header-wrap .nav .menu-item .nav-link, 
+.navbar.navbar-header-wrap .nav a.cart-icon, 
+.navbar.navbar-header-wrap .nav .theme-search-block a {
+    color: #fff;
+}
+.navbar.navbar-header-wrap .nav .btn-border {
+	background: transparent;
+	color: #fff;
+	letter-spacing: 0.18px;
+	font-weight: 500;
+}
+.navbar.navbar-header-wrap .nav .btn-border:hover, 
+.navbar.navbar-header-wrap .nav .btn-border:focus, 
+.navbar.navbar-header-wrap.header-fixed-top .nav .btn-border:hover, 
+.navbar.navbar-header-wrap.header-fixed-top .nav .btn-border:focus {
+	color: #ffffff;
+}
+.navbar.navbar-header-wrap.header-fixed-top .nav .menu-item .nav-link, 
+.navbar.navbar-header-wrap.header-fixed-top .nav a.cart-icon, 
+.navbar.navbar-header-wrap.header-fixed-top .nav .theme-search-block a {
+    color: #fff;
+}
+.navbar.navbar-header-wrap.header-fixed-top .nav .btn-border {
+	background: transparent;
+	color: #fff;
+}
+.navbar.navbar-header-wrap.classic-header .nav .menu-item .nav-link:hover, 
+.navbar.navbar-header-wrap.classic-header.header-fixed-top .nav .menu-item .nav-link:hover {
+	color: #fff;
+}
+.navbar.navbar-header-wrap.classic-header.header-fixed-top .nav .menu-item .nav-link {
+    padding: 25px 1.25rem;
+}
+.navbar.navbar-header-wrap.classic-header.header-fixed-top .nav .themes-header-top {
+    padding: 1rem 0;
+}
+.navbar.navbar-header-wrap.classic-header.header-fixed-top .site-branding-text {
+    margin-top: 0.2rem;
+}
+
+/*Header Sticky*/
+.header-fixed-top {
+	background-color: #18191b;
+	position: fixed;
+	top:0; 
+	left:0;
+	width: 100%; 
+	z-index: 3;
+	box-shadow: 0 8px 20px 0 rgba(0,0,0,.1);
+	opacity: 1;
+	-webkit-animation: slide-down 1.07s;
+	animation: slide-down 1.07s;
+}
+@keyframes slide-down {
+    0% {
+        opacity: 1;
+        transform: translateY(-100%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    } 
+}
+
+.navbar.header-fixed-top .nav {
+    margin-bottom: 1.188rem;
+    margin-top: 1.188rem;
+}
+.navbar.header-fixed-top .site-branding-text {
+	margin-top: 0.3rem;
+    margin-bottom: 0.290rem;
+}
+
+@media (max-width: 991px) { 
+	/*When we add more menus then show vertical scroll in mobiles*/
+	.navbar-collapse{
+		max-height: 400px;
+		overflow-x: hidden;
+		margin-top: 15px;
+	}
+	.navbar .nav .menu-item {
+		margin-right: 28px;
+	}
+	.navbar-brand, .sticky-navbar-brand {
+		float: left;
+	}
+	.navbar.header-fixed-top .site-branding-text {
+		margin-top: 0rem;
+	}
+	.navbar .nav {	
+		padding: 15px 15px 20px;
+		margin-top: 0px;
+		margin-left: 0;
+		position: relative;
+	}
+	.navbar .nav .menu-item {
+		margin-right: 0;
+	}
+	.navbar .nav .menu-item .nav-link {
+		line-height: 40px;
+		margin-right: 0;
+		display: block;
+		border-radius: 0;
+	}
+	.navbar .nav .dropdown-menu {
+		background-color: transparent;
+	}	
+	.navbar .nav .menu-item .dropdown-item {
+		color: #fff;
+		background-color: transparent;
+	}
+	.navbar.header-fixed-top .nav .menu-item .dropdown-item {
+		color: #fff;
+	}	
+	.row.align-self-center .align-self-center {
+		width: 100%;
+	}	
+	.navbar.navbar-header-wrap .nav .menu-item .dropdown-item {
+		color: #fff;
+		background-color: transparent;
+	}
+	/*Header Center Logo with Navbar*/
+	.navbar.navbar-header-center .navbar-toggler {
+		float: none;
+		text-align: center;
+		display: block;
+		margin-top: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	/*Navbar Classic Header*/
+	.navbar.navbar-header-wrap.classic-header.header-fixed-top .nav .menu-item .nav-link {
+		padding: 0;
+	}
+	.navbar.navbar-header-wrap.header-fixed-top .nav .dropdown-item {
+		color: #fff;
+	}
+}
+
+@media (max-width: 500px) { 
+	.navbar-brand img {
+		max-width: 100%;
+		height: auto;
+		display: block;
+	}
+	.navbar-brand, .sticky-navbar-brand {
+		float: none;
+	}
+	.site-branding-text, .navbar.header-fixed-top .site-branding-text {
+		margin-top: 0rem;
+		margin-right: 0rem;
+	}
+	/*Navbar Classic Header*/
+	.navbar.navbar-header-wrap.classic-header.header-fixed-top .nav .menu-item .nav-link {
+		padding: 0;
+	}
+}
+@media (min-width: 992px) {
+	.navbar-brand {
+		padding-top: 1.5rem;
+		padding-bottom: 1.875rem;
+	}
+	.site-branding-text {
+		margin-top: 1.2rem;
+		margin-bottom: 1.2rem;
+	}
+	.navbar.header-fixed-top .navbar-brand {
+		padding-top: 1.170rem;
+		padding-bottom: 1.170rem;
+	}
+	.navbar.header-fixed-top .sticky-navbar-brand .custom-logo{
+		padding-top: 1.170rem;
+		padding-bottom: 1.170rem;
+	}
+	.navbar { 
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.navbar .nav {
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.navbar .nav .menu-item .nav-link {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.navbar .nav .dropdown-menu {
+		top: 64px !important;
+		background-color: rgba(24, 25, 27, .9);
+	}
+	.navbar.header-fixed-top .nav .dropdown-menu {
+		top: 55px !important;
+	}
+	.navbar .nav .dropdown-menu { 
+		background-color: rgba(0,0,0,.8); 
+		box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 12px 0 rgba(0, 0, 0, 0.12); 
+	}
+	.navbar .nav .dropdown-item {
+		color: #fff;
+	} 
+	.navbar .nav .dropdown-menu ul.dropdown-menu {
+        top: auto !important;
+    }
+    .navbar.header-fixed-top .nav .dropdown-menu ul.dropdown-menu {
+        top: auto !important;
+    }
+	/*Header Center Logo with Navbar*/
+	.navbar.navbar-header-center .nav {
+		margin-bottom: 0.813rem;
+		margin-top: 0.813rem;
+	}
+	.navbar.navbar-header-center .nav .dropdown-menu, 
+	.navbar.navbar-header-center.header-fixed-top .nav .dropdown-menu {
+		top: 52px !important;
+	}
+	/*Navbar Classic Header*/
+	.navbar.navbar-header-wrap.classic-header .nav {
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+	.navbar.navbar-header-wrap.classic-header .nav .menu-item {
+		margin-right: 0;
+	} 
+	.navbar.navbar-header-wrap.classic-header .nav .menu-item .nav-link {
+		padding: 2.813rem 1.25rem;
+	}	
+	.navbar.navbar-header-wrap.classic-header .nav .menu-item.active .nav-link {
+		color: #fff;
+	}
+	.navbar.navbar-header-wrap.classic-header .nav .themes-header-top {
+		display: inline-block;
+		padding: 2.438rem 0;
+		margin-left: 1.25rem;
+	}
+	.navbar.navbar-header-wrap.classic-header .nav .menu-item .nav-link {
+		position: relative;
+		z-index: 1;
+		letter-spacing: 0.18px;
+	}
+	.navbar.navbar-header-wrap.classic-header .nav .menu-item .nav-link:before {
+		position: absolute;
+		content: "";
+		left: 0;
+		right: 0;
+		bottom: 0;
+		height: 0;
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+		z-index: -1
+	}
+	.navbar.navbar-header-wrap.classic-header .nav .menu-item .nav-link:hover:before {
+		height: 100%;
+		-webkit-animation: menuHover 0.3s;
+		animation: menuHover 0.3s;
+	}
+	.navbar.navbar-header-wrap.classic-header .nav .dropdown-menu {
+		top: unset !important;
+	}	
+}
+
+/*End Css*/
+
+.navbar-nav.sm-collapsible .sub-arrow {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	margin: -0.7em 0.5em 0 0;
+	border: 1px solid rgba(0, 0, 0, .1);
+	border-radius: .25rem;
+	padding: 0;
+	width: 2em;
+	height: 1.4em;
+	font-size: 1.25rem;
+	line-height: 1.2em;
+	text-align: center;
+}
+.navbar-nav.sm-collapsible .sub-arrow::before {
+	content: '+';
+}
+.navbar-nav.sm-collapsible .show > a > .sub-arrow::before {
+	content: '-';
+}
+.navbar-dark .navbar-nav.sm-collapsible .nav-link .sub-arrow {
+	border-color: rgba(255, 255, 255, .1);
+}
+/* make sure there's room for the carets */
+.navbar-nav.sm-collapsible .has-submenu {
+	padding-right: 3em;
+}
+/* keep the carets properly positioned */
+.navbar-nav.sm-collapsible .nav-link,
+.navbar-nav.sm-collapsible .dropdown-item {
+	position: relative;
+}
+/* Nav carets in expanded mode */
+.navbar-nav:not(.sm-collapsible) .nav-link .sub-arrow {
+	display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .0em;
+    vertical-align: .255em;
+    border-top: .27em solid;
+    border-right: .27em solid transparent;
+    border-left: .27em solid transparent;
+}
+/* point the arrows up for .fixed-bottom navbars */
+.fixed-bottom .navbar-nav:not(.sm-collapsible) .nav-link .sub-arrow,
+.fixed-bottom .navbar-nav:not(.sm-collapsible):not([data-sm-skip]) .dropdown-toggle::after {
+	border-top: 0;
+	border-bottom: .27em solid;
+}
+/* Dropdown carets in expanded mode */
+.navbar-nav:not(.sm-collapsible) .dropdown-item .sub-arrow,
+.navbar-nav:not(.sm-collapsible):not([data-sm-skip]) .dropdown-menu .dropdown-toggle::after {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	width: 0;
+	height: 0;
+	margin-top: -.3em;
+	margin-right: 1em;
+	border-top: .28em solid transparent;
+	border-bottom: .28em solid transparent;
+	border-left: .30em solid;
+}
+/* make sure there's room for the carets */
+.navbar-nav:not(.sm-collapsible) .dropdown-item.has-submenu {
+	padding-right: 2em;
+}
+/* Scrolling arrows for tall menus */
+.navbar-nav .scroll-up,
+.navbar-nav .scroll-down {
+	position: absolute;
+	display: none;
+	visibility: hidden;
+	height: 20px;
+	overflow: hidden;
+	text-align: center;
+}
+.navbar-nav .scroll-up-arrow,
+.navbar-nav .scroll-down-arrow {
+	position: absolute;
+	top: -2px;
+	left: 50%;
+	margin-left: -8px;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	border-top: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-bottom: 7px solid;
+	border-left: 7px solid transparent;
+}
+.navbar-nav .scroll-down-arrow {
+	top: 6px;
+	border-top: 7px solid;
+	border-right: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+	border-left: 7px solid transparent;
+}
+
+/* Add some spacing for 2+ level sub menus in collapsible mode */
+.navbar-nav.sm-collapsible .dropdown-menu .dropdown-menu {
+	margin: .5em;
+}
+/* Fix SmartMenus sub menus auto width (subMenusMinWidth/subMenusMaxWidth options) */
+.navbar-nav:not([data-sm-skip]) .dropdown-item {
+	white-space: normal;
+}
+.navbar-nav:not(.sm-collapsible) .sm-nowrap > li > .dropdown-item {
+	white-space: nowrap;
+	
+}
+
+/*Add Menu*/
+.navbar .nav .menu-item .nav-link.add-menu {
+	text-transform: capitalize;
+    background-color: #ffffff;
+    padding: 0.313rem 1.3rem;
+}
+.navbar .nav .menu-item .nav-link.add-menu:hover, 
+.navbar .nav .menu-item .nav-link.add-menu:focus {
+	color: #fff;
+}
+.navbar .nav .menu-item .nav-link.add-menu:before {
+	font-family: "FontAwesome";
+	content: "\f055";
+	padding-right: 0.438rem;
+}
+.navbar.navbar-header-wrap.classic-header .nav .menu-item .nav-link.add-menu { 
+	padding: 0.313rem 1.3rem;
+}
+.navbar.navbar-header-wrap.classic-header .nav .menu-item .nav-link.add-menu:before {
+	display: none;
+}

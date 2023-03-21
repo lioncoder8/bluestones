@@ -1,0 +1,637 @@
+/*
+theme-default.css
+*/
+
+
+/*--------------------------------------------------
+=>> Common - Begining Css
+--------------------------------------------------*/
+
+blockquote {
+	border-left: 3px solid #04CE78;
+}
+td a {
+	color: #04CE78;
+}
+input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus,
+input[type="search"]:focus, input[type="number"]:focus, input[type="tel"]:focus, input[type="range"]:focus,
+input[type="date"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="time"]:focus,
+input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="color"]:focus, textarea:focus,
+select:focus, .form-control:focus {
+	border-color: #04CE78;
+	box-shadow: 0 0 0 1px rgba(4, 206, 120, .65) !important;
+}
+
+button,
+input[type="button"],
+input[type="submit"] {
+	background-color: #04CE78;
+}
+.btn-default, 
+.btn-default-dark, 
+.btn-light:hover, 
+.btn-light:focus { 
+	background: #04CE78; 
+}
+.btn-light { 
+	color: #04CE78; 
+}
+.btn-border, 
+.btn-border:hover, 
+.btn-border:focus { 
+	border: 2px solid #04CE78; 
+}
+.btn-border:hover, 
+.btn-border:focus {
+    background: #04CE78;
+}
+
+/*--------------------------------------------------
+=>> Navbar
+--------------------------------------------------*/
+
+.navbar.navbar-header-wrap .navbar-toggler:hover, 
+.navbar.navbar-header-wrap .navbar-toggler:focus {
+	outline: 2px dotted #04CE78;
+} 
+
+@media (max-width: 991px) { 
+	.navbar .nav .menu-item .nav-link {
+		border-bottom: 1px solid rgba(4, 206, 120, .7);
+	}
+	.navbar.header-fixed-top .nav .menu-item .dropdown-item:hover {
+		color: #04CE78;
+	}
+}	
+		
+.navbar .nav .menu-item .nav-link:hover, 
+.navbar .nav .menu-item .nav-link:focus, 
+.navbar.header-fixed-top .nav .menu-item .nav-link:hover, 
+.navbar.header-fixed-top .nav .menu-item .nav-link:focus, 
+.navbar.navbar-header-wrap .nav .menu-item .nav-link:hover, 
+.navbar.navbar-header-wrap .nav .menu-item .nav-link:focus, 
+.navbar.navbar-header-wrap.header-fixed-top .nav .menu-item .nav-link:hover, 
+.navbar.navbar-header-wrap.header-fixed-top .nav .menu-item .nav-link:focus {
+    color: #04CE78;
+}
+.navbar .nav .menu-item.active > .nav-link, 
+.navbar.header-fixed-top .nav .menu-item.active > .nav-link,
+.navbar.navbar-header-wrap .nav .menu-item.active > .nav-link, 
+.navbar.navbar-header-wrap.header-fixed-top .nav .menu-item.active > .nav-link {
+    color: #04CE78;
+}
+.navbar .nav .dropdown-menu .menu-item { 
+	margin-right: 0;
+	border-bottom: solid 1px rgba(4, 206, 120, .7);
+}
+.navbar .nav .menu-item .dropdown-item:hover, 
+.navbar .nav .menu-item .dropdown-item:focus, 
+.navbar.navbar-header-wrap .nav .menu-item .dropdown-item:hover, 
+.navbar.navbar-header-wrap .nav .menu-item .dropdown-item:focus {
+    background-color: transparent;
+	color: #04CE78;
+}
+.navbar .nav .dropdown-menu .menu-item.active .dropdown-item {
+	background-color: transparent;
+	color: #04CE78;
+}
+.navbar .nav .dropdown-menu > .menu-item > ul.dropdown-menu .menu-item.active .dropdown-item {
+    background-color: transparent;
+	color: #04CE78;
+}
+.navbar .nav .dropdown-menu > .menu-item > ul.dropdown-menu > .menu-item > .dropdown-item:hover, 
+.navbar .nav .dropdown-menu > .menu-item > ul.dropdown-menu > .menu-item > .dropdown-item:focus {
+    background-color: transparent;
+	color: #04CE78;
+}
+.navbar.navbar-header-wrap.header-fixed-top .nav .btn-border {
+    border: 2px solid #04CE78;
+}
+.navbar.navbar-header-wrap .nav .btn-border:hover, 
+.navbar.navbar-header-wrap .nav .btn-border:focus, 
+.navbar.navbar-header-wrap.header-fixed-top .nav .btn-border:hover, 
+.navbar.navbar-header-wrap.header-fixed-top .nav .btn-border:focus {
+    background: #04CE78;
+	color: #ffffff;
+	border: 2px solid #04CE78;	
+}
+.navbar .nav .menu-item:hover .nav-link, 
+.navbar .nav .menu-item.active .nav-link {
+    color: #04CE78;
+}
+/*Add Menu*/
+.navbar .nav .menu-item .nav-link.add-menu {
+    border: 2px solid #04CE78;
+}
+.navbar .nav .menu-item .nav-link.add-menu:hover, 
+.navbar .nav .menu-item .nav-link.add-menu:focus {
+	background-color: #04CE78;
+}
+.navbar.navbar-header-wrap .nav .menu-item .nav-link.add-menu {
+	background: transparent;
+	border: 2px solid #fff;	
+} 
+.navbar.navbar-header-wrap.header-fixed-top .nav .menu-item .nav-link.add-menu {
+	border: 2px solid #04CE78;
+}
+.navbar.navbar-header-wrap .nav .menu-item .nav-link.add-menu:hover, 
+.navbar.navbar-header-wrap .nav .menu-item .nav-link.add-menu:focus, 
+.navbar.navbar-header-wrap.header-fixed-top .nav .menu-item .nav-link.add-menu:hover, 
+.navbar.navbar-header-wrap.header-fixed-top .nav .menu-item .nav-link.add-menu:focus {
+    background: #04CE78;
+	color: #ffffff;
+	border: 2px solid #04CE78;	
+}
+
+/*--------------------------------------------------
+=>> Header Navbar Classic Header
+--------------------------------------------------*/
+
+@media (min-width: 992px) {
+	.navbar.navbar-header-wrap.classic-header .nav .menu-item.active .nav-link {
+		background-color: #04CE78;
+	}
+	.navbar.navbar-header-wrap.classic-header .nav .menu-item .nav-link:before {
+		background: #04CE78;
+	}
+}
+@media (max-width: 992px) {
+	.navbar.navbar-header-wrap.classic-header .nav .menu-item .nav-link:hover, 
+	.navbar.navbar-header-wrap.classic-header.header-fixed-top .nav .menu-item .nav-link:hover {
+		color: #04CE78 !important;
+	}
+}
+@media (max-width: 500px) {
+	.navbar.navbar-header-wrap.classic-header .nav .menu-item .nav-link:hover,
+	.navbar.navbar-header-wrap.classic-header.header-fixed-top .nav .menu-item .nav-link:hover {
+		color: #04CE78;
+	}
+}
+
+
+/*--------------------------------------------------
+=>> Search Popup Box For Header
+--------------------------------------------------*/
+
+#search-popup .btn {
+	background-color: #04CE78;
+	border-color: #04CE78;
+}
+
+/*--------------------------------------------------
+=>> Site Header Contact Info
+--------------------------------------------------*/
+
+.site-header, 
+.site-header.vrsn-two { 
+	background-color: #04CE78; 
+}
+.custom-social-icons li a.social-hover:hover,	
+.custom-social-icons li a.social-hover:focus { 
+	color: #04CE78; 
+}
+
+/*--------------------------------------------------
+=>> Theme Combined Classes
+--------------------------------------------------*/
+
+.theme-bg-default { background-color: #04CE78 !important; }
+.text-default { color: #04CE78 !important; }
+.entry-header .entry-title a:hover, 
+.entry-header .entry-title a:focus { 
+	color: #04CE78 !important; 
+}
+
+/*--------------------------------------------------
+=>> WooCommerce Menubar Cart Info  
+--------------------------------------------------*/
+
+.woo-cart-block > a .cart-total {
+	background: #04CE78;
+}
+
+/*--------------------------------------------------
+=>> Theme Main Slider
+--------------------------------------------------*/
+
+.theme-slider-content .sub-title { 
+	color: #04CE78; 
+}
+.theme-slider-content .btn-slider {
+    background-color: #04CE78;
+}
+.theme-main-slider .owl-carousel .owl-prev:hover, 
+.theme-main-slider .owl-carousel .owl-prev:focus, 
+.theme-main-slider .owl-carousel .owl-next:hover, 
+.theme-main-slider .owl-carousel .owl-next:focus { 
+	background-color: #04CE78 !important;
+}
+
+
+/*--------------------------------------------------
+=>> Slider Next/Prev Button Styles
+--------------------------------------------------*/
+
+.owl-carousel .owl-prev:hover, 
+.owl-carousel .owl-prev:focus, 
+.owl-carousel .owl-next:hover, 
+.owl-carousel .owl-next:focus, 
+.theme-sponsors .owl-carousel .owl-prev:hover, 
+.theme-sponsors .owl-carousel .owl-next:hover { 
+	background-color: #04CE78;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+	background-color: #04CE78;
+}
+
+/*--------------------------------------------------
+=>> Theme Page Header Area
+--------------------------------------------------*/
+
+.page-breadcrumb > li a { color: #04CE78; }
+
+/*--------------------------------------------------
+=>> Theme Section Title & Subtitle
+--------------------------------------------------*/
+
+.theme-separator-line-horrizontal-full::before {
+    color: #04CE78;
+}
+
+/*--------------------------------------------------
+=>> Theme Service Area
+--------------------------------------------------*/
+
+.theme-services .service-content:hover { 
+	border: 1px solid #04CE78;
+}
+.theme-services .service-content::before {
+    background: #04CE78;
+}
+.theme-services .service-content-thumbnail a { color: #04CE78; }
+.theme-services .service-content-thumbnail i.fa { 
+	color: #04CE78;
+}
+
+
+/*--------------------------------------------------
+=>> Theme Project Area
+--------------------------------------------------*/
+
+.theme-project .theme-project-content .content-overlay {
+	background: rgba(4, 206, 120, 0.8);
+}
+.theme-project .theme-project-content:hover { 
+	background-color: #04CE78; 
+}
+.theme-project .theme-project-content:hover .content-area:before {
+    border-color: transparent transparent #04CE78 transparent;
+}
+.theme-project.vrsn-three .theme-project-content .theme-project-title a:hover, 
+.theme-project.vrsn-three .theme-project-content .theme-project-title a:focus { 
+	color: #04CE78; 
+}
+
+/*--------------------------------------------------
+=>> Theme Testimonial Area
+--------------------------------------------------*/
+
+.theme-testimonial-block { 
+    border: 1px solid #04CE78;	
+}
+.theme-testimonial-block:before { 
+    background-color: #04CE78;
+}
+.theme-testimonial-block::after {
+    color: #04CE78;
+}
+.theme-testimonial-block .name, 
+.theme-testimonial-block .name a, 
+.theme-testimonial-block .name a:hover, 
+.theme-testimonial-block .name a:focus {
+	color: #04CE78;
+}
+
+
+/*--------------------------------------------------
+=>> Contact Page Area
+--------------------------------------------------*/
+
+.theme-contact-widget i.fa { 
+	color: #04CE78;	
+}
+
+/*--------------------------------------------------
+=>> 404 Error Page Area
+--------------------------------------------------*/
+
+.theme-error-page .error-title b, 
+.theme-error-page .error-title i { 
+	color: #04CE78;
+}
+
+/*--------------------------------------------------
+=>> Theme Blog Sidebar 
+--------------------------------------------------*/
+
+.entry-content a { color: #04CE78; }
+
+/*--------------------------------------------------
+=>> Theme Blog Meta Info
+--------------------------------------------------*/
+
+.media .posted-on time.days {
+    background-color: #04CE78;
+}
+.entry-meta a:hover, .entry-meta a:focus {
+    color: #04CE78;
+}
+.more-link {
+	background: #04CE78;
+}
+.entry-meta .tag-links a:hover, 
+.entry-meta .tag-links a:focus {
+    background-color: #04CE78;
+	border: 1px solid #04CE78;
+}
+.pagination a:hover, 
+.pagination a.active, 
+.page-links a:hover, 
+.post-nav-links a:hover, 
+.post-nav-links .post-page-numbers.current { 
+	background-color: #04CE78; 
+	border: 1px solid #04CE78; 
+}
+.navigation.pagination .nav-links .page-numbers.current, 
+.navigation.pagination .nav-links .page-numbers:hover, 
+.navigation.pagination .nav-links .page-numbers:focus {
+	background-color: #04CE78; 
+	border: 1px solid #04CE78; 
+}
+.comment-detail-title a:hover, 
+.comment-detail-title a:focus { 
+	color: #04CE78; 
+}
+.comment-detail-title .comment-date a {
+    color: #04CE78;
+}
+.comment-detail-title .comment-date a:hover { color: #04CE78; }
+.reply a {
+	background-color: #04CE78;
+    border: 2px solid #04CE78;
+}
+.reply a:hover, .reply a:focus { 
+	border: 2px solid #04CE78;
+	background-color: #04CE78;
+}
+.logged-in-as a {		
+	color: #04CE78;		
+}
+.theme-comment-title h4:after {
+    background: #04CE78;
+}
+.page-links a {
+    background-color: #04CE78;
+    border: 1px solid #04CE78;
+	color: #fff;
+}
+
+/*--------------------------------------------------
+=>> Theme Blog Area - Homepage Three
+--------------------------------------------------*/
+
+
+/*--------------------------------------------------
+=>> Theme Widgets Area
+--------------------------------------------------*/
+
+.widget a:hover, 
+.widget a:focus, 
+.footer-sidebar .widget_rss ul li .rsswidget:hover, 
+.footer-sidebar .widget_rss ul li .rsswidget:focus { 
+	color: #04CE78; 
+}
+.widget_archive li, .widget_categories li, .widget_links li, 
+.widget_meta li, .widget_nav_menu li, .widget_pages li {
+    color: #04CE78;
+}
+.widget button[type="submit"], 
+.btn-success {
+    background-color: #04CE78;
+	border-color: #04CE78;
+}
+.widget .tagcloud a:hover, 
+.widget .tagcloud a:focus {
+    background-color: #04CE78;
+    border: 1px solid #04CE78;
+}
+address i, 
+.textwidget a { 
+	color: #04CE78;
+}
+.footer-sidebar .textwidget a, 
+.footer-sidebar .widget table a { 
+	color: #04CE78;
+}
+
+	
+/*--------------------------------------------------------------		
+## Captions		
+--------------------------------------------------------------*/		
+
+.wp-caption-text a { color: #04CE78; }		
+
+
+/*--------------------------------------------------
+=>> Site Footer Area
+--------------------------------------------------*/
+
+.footer-sidebar .widget a:hover, 
+.footer-sidebar .widget a:focus { 
+	color: #04CE78; 
+}
+
+/*--------------------------------------------------
+=>> Theme Site Info Area
+--------------------------------------------------*/
+
+.site-info p a, 
+.site-info > a { 
+	color: #04CE78; 
+}
+
+/*-----------------------------------------------------
+=>> Sidebar Widget Style Css According to WordPress 6.0
+-----------------------------------------------------*/
+
+.sidebar .widget .wp-block-group .wp-block-preformatted a {
+	color: #04CE78;
+}
+.sidebar .widget .wp-block-group .wp-block-tag-cloud a:hover, .sidebar .widget .wp-block-group .wp-block-tag-cloud a:focus {
+    background-color: #04CE78;
+    border: 1px solid #04CE78;
+}
+.sidebar .widget .wp-block-group .wp-block-verse a {
+	color: #04CE78;
+}
+.sidebar .widget .wp-block-group .wp-block-code a {
+	color: #04CE78;
+}
+.sidebar .widget .wp-block-group .logged-in a,
+.sidebar .widget .wp-block-group .logged-out a {
+	color: #04CE78;
+}
+.sidebar .widget .wp-block-group .wp-block-media-text .wp-block-media-text__content a {
+	color: #04CE78;
+}
+.sidebar .widget .wp-block-group .wp-block-read-more {
+	color: #04CE78;
+}
+.sidebar .widget .wp-block-group .wp-block-gallery .wp-element-caption a {
+	color: #04CE78;
+}
+.theme-blog .post .entry-content .wp-block-file .wp-block-file__button {
+	background-color: #04CE78;
+}
+.sidebar .widget.widget_block .wp-block-group p a {
+    color: #04CE78;
+}
+.sidebar .widget .wp-block-group .wp-block-image .wp-element-caption a {
+    color: #04CE78;
+}
+
+/*-----------------------------------------------------
+=>> Footer Widget Style Css According to WordPress 6.0
+-----------------------------------------------------*/
+
+.footer-sidebar .widget .wp-block-group .logged-in a,
+.footer-sidebar .widget .wp-block-group .logged-out a {
+	color: #04CE78;
+}
+.footer-sidebar .widget .wp-block-group .wp-block-media-text__content a {
+    color: #04CE78;
+}
+
+/*--------------------------------------------------
+=>> Page Scroll Up/Down Area
+--------------------------------------------------*/
+
+.page-scroll-up a, 
+.page-scroll-up a:hover,
+.page-scroll-up a:active {
+	background: #04CE78;
+}
+
+/*--------------------------------------------------
+=>> Shop Products 
+--------------------------------------------------*/
+
+/*Product Sale*/
+.woocommerce ul.products li.product .onsale, 
+.theme-block.shop .product .onsale {
+	background-color: #04CE78;
+}
+/*Homepage Product Buttons*/	
+.theme-block.shop.theme-bg-default .product .button.add_to_cart_button:hover, 
+.theme-block.shop.theme-bg-default .product .button.product_type_grouped:hover,                     
+.theme-block.shop.theme-bg-default .product .button.product_type_simple:hover, 
+.theme-block.shop.theme-bg-default .product .button.product_type_external:hover, 
+.theme-block.shop.theme-bg-default .product .button.product_type_variable:hover, 
+.theme-block.shop.theme-bg-default .product a.added_to_cart, 
+.theme-block.shop.theme-bg-default .product a.added_to_cart:hover {
+	color: #333;
+	border-bottom: 2px solid #333;
+}
+/*Product Buttons*/
+.woocommerce ul.products li.product .button.add_to_cart_button:hover, 
+.woocommerce ul.products li.product .button.product_type_grouped:hover, 
+.woocommerce ul.products li.product .button.product_type_simple:hover, 
+.woocommerce ul.products li.product .button.product_type_external:hover, 
+.woocommerce ul.products li.product .button.product_type_variable:hover {
+	color: #04CE78;
+	border-bottom: 2px solid #04CE78;
+}
+.woocommerce ul.products li.product a.added_to_cart {
+	color: #04CE78;
+	border-bottom: 2px solid #04CE78;
+}
+.woocommerce ul.products li.product a.added_to_cart:hover {
+	color: #04CE78;
+	border-bottom: 2px solid #04CE78;
+}
+
+/*Product Single View*/
+
+.woocommerce div.product form.cart .button:hover, 
+.woocommerce div.product form.cart .button:hover {
+	background: #04CE78;
+}
+.woocommerce table.shop_table td.product-name, 
+.woocommerce table.shop_table td.product-name a {
+	color: #04CE78;	
+}
+.product_meta .posted_in a:hover, 
+.product_meta .tagged_as a:hover {
+	color: #04CE78;
+}
+.woocommerce #review_form #respond .form-submit input:hover {
+    background: #04CE78;
+}
+
+/*Product Cart View*/
+.woocommerce .woocommerce-error .button, 
+.woocommerce .woocommerce-info .button, 
+.woocommerce .woocommerce-message .button, 
+.woocommerce-page .woocommerce-error .button, 
+.woocommerce-page .woocommerce-info .button, 
+.woocommerce-page .woocommerce-message .button {
+    background-color: #04CE78;
+}
+/*Product Cart Table*/
+.woocommerce table.shop_table td.product-name a:hover, 
+.woocommerce table.shop_table td.product-subtotal .woocommerce-Price-amount {
+	color: #04CE78;	
+}
+.woocommerce-cart table.cart td.actions .coupon button.button:hover {
+	background: #04CE78;
+    color: #fff;	
+}
+.woocommerce-cart table.cart td.actions button.button {
+	background: #04CE78;
+    color: #fff;
+}
+#add_payment_method .wc-proceed-to-checkout a.checkout-button, 
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button, 
+.woocommerce-checkout .wc-proceed-to-checkout a.checkout-button, 
+.woocommerce .woocommerce-form-login .woocommerce-form-login__submit, 
+.woocommerce button.button.woocommerce-Button {
+	background-color: #04CE78;
+}
+.checkout_coupon.woocommerce-form-coupon .form-row button.button:hover {
+	background-color: #04CE78;
+}
+.woocommerce #payment #place_order, 
+.woocommerce-page #payment #place_order {
+    background-color: #04CE78;
+}
+/*WooCommerce Widgets*/
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle {
+    background-color: #04CE78;
+}
+.woocommerce .widget_price_filter .price_slider_amount .button {
+    background-color: #04CE78;
+}
+.woocommerce-mini-cart__buttons.buttons a.button, 
+.widget .woocommerce-mini-cart__buttons.buttons a.button:hover, 
+.widget .woocommerce-mini-cart__buttons.buttons a.button:focus {
+	background-color: #04CE78;
+	color: #fff;
+}
+/*WooCommerce Pagination*/
+.woocommerce nav.woocommerce-pagination ul li a:focus, 
+.woocommerce nav.woocommerce-pagination ul li a:hover, 
+.woocommerce nav.woocommerce-pagination ul li span.current {
+	background-color: #04CE78;
+    border: 1px solid #04CE78;
+    color: #fff;
+}

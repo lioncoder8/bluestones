@@ -1,0 +1,351 @@
+li[class|="customize-control-aasta-"] .wp-picker-container .wp-color-result.button {
+	width: 100%;
+	max-width: 255px;
+	height: 30px;
+	margin: 0 6px 6px 0;
+	padding: 0 0 0 30px;
+	font-size: 11px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+li[class|="customize-control-aasta-"] .wp-picker-container .wp-color-result-text {
+	background: rgba(0, 0, 0, 0.1);
+	border-radius: 0 2px 2px 0;
+	border-left: 1px solid rgba(0, 0, 0, 0.06);
+	color: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: 100%;
+}
+
+li[class|="customize-control-aasta-"] .wp-picker-container span.color-alpha {
+	width: 30px;
+	height: 24px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+
+.customize-control-aasta-radio-buttonset .buttonset {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.customize-control-aasta-radio-buttonset .buttonset .switch-label {
+	background: rgba(0, 0, 0, 0.1);
+	border: 1px rgba(0, 0, 0, 0.1);
+	color: rgba(50, 55, 60, 0.5);
+	margin: 0;
+	text-align: center;
+	padding: 0.5em 1em;
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+}
+
+.customize-control-aasta-radio-buttonset .buttonset .switch-input:checked + .switch-label {
+	background: #13a1dc;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+/* Control: slider. */
+
+.customize-control-aasta-slider .customize-control-content {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.customize-control-aasta-slider .ui-slider {
+	background-color: rgba(0, 0, 0, 0.1);
+	width: 63%;
+	height: 6px;
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	border-radius: 3px;
+}
+
+.customize-control-aasta-slider .ui-slider .ui-slider-handle {
+	height: 15px;
+	width: 15px;
+	background-color: #fff;
+	position: absolute;
+	cursor: pointer;
+	-webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+}
+
+.customize-control-aasta-slider .ui-slider .ui-slider-range {
+	background-color: #13a1dc;
+	height: 100%;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.customize-control-aasta-slider .aasta-slider-input {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.customize-control-aasta-slider .aasta-slider-input .slider-reset {
+	padding-left: 5px;
+	cursor: pointer;
+}
+
+/* Control: Radio image. */
+.customize-control-aasta-radio-image > .image {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.customize-control-aasta-radio-image .image-select + label {
+	position: relative;
+	display: inline-block;
+	width: 32%;
+	margin-right: 2%;
+}
+
+#customize-control-aasta_theme_color .image-select + label, #customize-control-aasta_theme_background_image .image-select + label{ 	
+    width: 22% !important;
+	margin-right: 0% !important; 
+}
+
+#customize-control-aasta_page_header_layout .image-select + label {
+    width: 47%;
+}
+
+.customize-control-aasta-radio-image .image-select + label:nth-of-type(3n) {
+	margin-right: 0;
+}
+
+.customize-control-aasta-radio-image .image-select + label .image-label {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.7);
+	font-weight: 700;
+}
+
+.customize-control-aasta-radio-image .image-select + label .image-label .inner {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding: 0.5em;
+	vertical-align: middle;
+}
+
+.customize-control-aasta-radio-image .image-select + label:hover .image-label {
+	display: block;
+}
+
+.customize-control-aasta-radio-image input {
+	display: none;
+}
+
+.customize-control-aasta-radio-image input img {
+	border: 1px solid transparent;
+}
+
+.customize-control-aasta-radio-image input:checked + label img {
+	-webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
+	border: 1px solid #13a1dc;
+}
+
+.customize-control-aasta-radio-image input + label .image-clickable {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Control: Sortable. */
+.customize-control-aasta-sortable ul.ui-sortable li {
+	padding: 5px 10px;
+	border: 1px solid #333;
+	background: #fff;
+}
+
+.customize-control-aasta-sortable ul.ui-sortable li .dashicons.dashicons-menu {
+	float: right;
+}
+
+.customize-control-aasta-sortable ul.ui-sortable li .dashicons.visibility {
+	margin-right: 10px;
+}
+
+.customize-control-aasta-sortable ul.ui-sortable li.invisible {
+	color: #aaa;
+	border: 1px dashed #aaa;
+}
+
+.customize-control-aasta-sortable ul.ui-sortable li.invisible .dashicons.visibility {
+	color: #aaa;
+}
+
+/* Control: Switch. */
+.customize-control-aasta-toggle {
+	position: relative;
+}
+
+.customize-control-aasta-toggle label {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.customize-control-aasta-toggle label .customize-control-title {
+	width: calc(100% - 55px);
+}
+
+.customize-control-aasta-toggle label .description {
+	-webkit-box-ordinal-group: 100;
+	-ms-flex-order: 99;
+	order: 99;
+}
+
+.customize-control-aasta-toggle .switch {
+	border: 1px solid #b4b9be;
+	display: inline-block;
+	width: 35px;
+	height: 12px;
+	border-radius: 8px;
+	background: #b4b9be;
+	vertical-align: middle;
+	position: relative;
+	top: 4px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transition: background 350ms ease;
+	transition: background 350ms ease;
+}
+
+.customize-control-aasta-toggle .switch::after {
+	content: "";
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: -3px;
+	-webkit-transition: all 350ms cubic-bezier(0, 0.95, 0.38, 0.98), background 150ms ease;
+	transition: all 350ms cubic-bezier(0, 0.95, 0.38, 0.98), background 150ms ease;
+	background: #999;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	-webkit-transform: translate3d(0, -50%, 0);
+	transform: translate3d(0, -50%, 0);
+}
+
+.customize-control-aasta-toggle .switch::before {
+	content: "";
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: -3px;
+	-webkit-transition: all 350ms cubic-bezier(0, 0.95, 0.38, 0.98), background 150ms ease;
+	transition: all 350ms cubic-bezier(0, 0.95, 0.38, 0.98), background 150ms ease;
+	background: rgba(0, 0, 0, 0.2);
+	-webkit-transform: translate3d(0, -50%, 0) scale(0);
+	transform: translate3d(0, -50%, 0) scale(0);
+}
+
+.customize-control-aasta-toggle .switch:active::before {
+	-webkit-transform: translate3d(0, -50%, 0) scale(3);
+	transform: translate3d(0, -50%, 0) scale(3);
+}
+
+.customize-control-aasta-toggle input:checked + .switch::before {
+	background: rgba(0, 115, 170, 0.075);
+	-webkit-transform: translate3d(100%, -50%, 0) scale(1);
+	transform: translate3d(100%, -50%, 0) scale(1);
+}
+
+.customize-control-aasta-toggle input:checked + .switch::after {
+	background: #13a1dc;
+	-webkit-transform: translate3d(100%, -50%, 0);
+	transform: translate3d(100%, -50%, 0);
+}
+
+.customize-control-aasta-toggle input:checked + .switch:active::before {
+	background: rgba(0, 115, 170, 0.075);
+	-webkit-transform: translate3d(100%, -50%, 0) scale(3);
+	transform: translate3d(100%, -50%, 0) scale(3);
+}
+
+/* Control: Heading */
+
+.customize-control-aasta-heading {
+	display: list-item;
+	margin-left: -12px;
+	margin-right: -12px;
+	padding: 7px 15px;
+	background: #FFF;
+	border-left: 4px solid #0073aa;
+}
+
+.customize-control-aasta-heading h4 {
+	margin: 0;
+}
+
+.customize-control-aasta-heading h4 span {
+	margin-bottom: 0;
+}
+
+span.customize-category-select-control {
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}

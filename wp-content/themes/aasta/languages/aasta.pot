@@ -1,0 +1,767 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Aasta\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-16 10:01+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.1; wp-5.9.3\n"
+"X-Domain: aasta"
+
+#: comments.php:26
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#. %1$s %2$s: day
+#. %1$s %2$s: month
+#. %1$s %2$s: year
+#. %1$s %2$s: author
+#. %1$s %2$s: category
+#. %1$s %2$s: tag
+#. %1$s %2$s: WooCommerce
+#. %1$s %2$s: search
+#: inc/template-tags.php:95 inc/template-tags.php:98 inc/template-tags.php:101
+#: inc/template-tags.php:104 inc/template-tags.php:107
+#: inc/template-tags.php:110 inc/template-tags.php:113
+#: inc/template-tags.php:130
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#: comments.php:37
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: template-parts/content-single.php:39 template-parts/content.php:44
+msgid ", "
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:543
+msgid "//fontawesome.io/icons/"
+msgstr ""
+
+#. %1$s: 404
+#: inc/template-tags.php:123
+msgid "404"
+msgstr ""
+
+#. Name of the theme
+msgid "Aasta"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Aasta is a modern and powerful multipurpose business WordPress theme with a "
+"high-quality look that helps to make a beautiful website for each firm, "
+"company, and industry. Aasta is a lightweight, super-fast theme to "
+"accelerate your efforts. It comes packed with powerful features for "
+"designing and customizing theme pages, advanced typography, sticky menu, "
+"header styles, logo upload, translation ready (WPML, Polylang), built with "
+"SEO in mind and it's built to be beautiful on all screen sizes. The theme is "
+"perfectly suited for business, consultant, finance, corporate, freelancer, "
+"agency, business promotion, personal portfolio, electrician, industries, "
+"education, SEO, construction, fashion, online shop, health &amp; medical, "
+"Beauty &amp; spa salons, wedding, photography, gym, cafe, music, interior "
+"design firms, architecture firms, lawyer, restaurant, hotel, blog, magazine, "
+"travel agency and many other websites compatible. This theme supports the "
+"best Elementor page builder to create, edit, and update page designs as per "
+"the requirement. Aasta also supports popular free and premium WordPress "
+"plugins such as Elementor, Yoast SEO, WooCommerce, Contact Form 7, Jetpack, "
+"Google Analytics, and much more. Check the demo of Aasta Pro https:"
+"//themearile.com/aasta-pro-theme/"
+msgstr ""
+
+#: inc/customizer/aasta-customizer-options.php:182
+msgid "Activate"
+msgstr ""
+
+#: inc/customizer/customizer-notice/aasta-customizer-notify.php:111
+msgid "Activating"
+msgstr ""
+
+#: inc/class-bootstrap-navwalker.php:207
+msgid "Add a menu"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:629
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:662
+msgid "Add Icon"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:33
+msgid "Add new field"
+msgstr ""
+
+#: inc/template-tags.php:104
+msgid "All posts by"
+msgstr ""
+
+#: inc/customizer/controls/code/aasta-customize-upgrade-control.php:36
+msgid "and get the other pro features."
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/aasta-blog-general-customizer-settings.php:71
+msgid "Archive Blog Pages"
+msgstr ""
+
+#: inc/template-tags.php:171
+msgid "Archive by category"
+msgstr ""
+
+#: inc/template-tags.php:95 inc/template-tags.php:98 inc/template-tags.php:101
+msgid "Archives"
+msgstr ""
+
+#: inc/template-tags.php:51
+msgid "at"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/aasta-page-header-customizer-settings.php:56
+msgid "Background color"
+msgstr ""
+
+#: inc/customizer/aasta-panels-and-sections.php:98
+msgid "Base Typography"
+msgstr ""
+
+#: inc/customizer/aasta-panels-and-sections.php:45
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/aasta-blog-general-customizer-settings.php:26
+msgid "Blog/Archive/Single"
+msgstr ""
+
+#. Name of the template
+msgid "Builder Page"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:279
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:427
+msgid "Button Text"
+msgstr ""
+
+#: template-parts/content-single.php:37 template-parts/content.php:39
+msgid "by "
+msgstr ""
+
+#: inc/template-tags.php:107
+msgid "Category"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:584
+msgid "Center"
+msgstr ""
+
+#: inc/metabox.php:41
+msgid "Choose Sidebar Template for the Default Page Templates"
+msgstr ""
+
+#: inc/customizer/controls/code/aasta-customize-base-control.php:25
+msgid "Clear"
+msgstr ""
+
+#: inc/customizer/controls/code/aasta-customize-base-control.php:26
+msgid "Clear color"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:333
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:397
+msgid "Color"
+msgstr ""
+
+#: inc/customizer/controls/code/aasta-customize-base-control.php:30
+msgid "Color value"
+msgstr ""
+
+#: comments.php:63
+msgid "Comment"
+msgstr ""
+
+#: comments.php:36
+msgid "Comment navigation"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/aasta-footer-widget-customizer-settings.php:47
+#: inc/customizer/customizer-settings/theme-settings/aasta-menu-bar-customizer-settings.php:64
+msgid "Container"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/aasta-footer-widget-customizer-settings.php:48
+#: inc/customizer/customizer-settings/theme-settings/aasta-menu-bar-customizer-settings.php:65
+msgid "Container Full"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/aasta-footer-widget-customizer-settings.php:44
+#: inc/customizer/customizer-settings/theme-settings/aasta-menu-bar-customizer-settings.php:61
+msgid "Container Width"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/aasta-blog-general-customizer-settings.php:48
+msgid "Content"
+msgstr ""
+
+#: footer.php:14 inc/customizer/aasta-customizer-options.php:147
+msgid ""
+"Copyright &copy; 2022 | Powered by <a href=\"//wordpress.org/\">WordPress</a>"
+" <span class=\"sep\"> | </span> Aasta theme by <a target=\"_blank\" "
+"href=\"//themearile.com/\">ThemeArile</a>"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:38
+msgid "Customizer Repeater"
+msgstr ""
+
+#: inc/customizer/aasta-customizer-options.php:183
+msgid "Deactivate"
+msgstr ""
+
+#: inc/customizer/controls/code/aasta-customize-base-control.php:27
+msgid "Default"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:367
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:486
+msgid "Delete field"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:351
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:475
+msgid "Designation"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/aasta-blog-general-customizer-settings.php:43
+msgid ""
+"Drag & Drop post items to re-arrange the order and also hide and show items "
+"as per the need by clicking on the eye icon."
+msgstr ""
+
+#: comments.php:55
+msgid "Email"
+msgstr ""
+
+#: inc/customizer/aasta-panels-and-sections.php:91
+#: inc/customizer/customizer-settings/theme-settings/aasta-typography-customizer-settings.php:32
+msgid "Enable Typography"
+msgstr ""
+
+#: inc/template-tags.php:208
+msgid "Error 404"
+msgstr ""
+
+#: template-parts/content.php:42
+msgid "Featured"
+msgstr ""
+
+#: inc/customizer/aasta-customizer-options.php:43
+#: inc/customizer/aasta-customizer-options.php:70
+#: inc/customizer/aasta-customizer-options.php:83
+#: inc/customizer/aasta-customizer-options.php:96
+#: inc/customizer/aasta-customizer-options.php:109
+#: inc/customizer/aasta-customizer-options.php:122
+#: inc/customizer/aasta-customizer-options.php:135
+msgid "Font Family"
+msgstr ""
+
+#: inc/customizer/aasta-customizer-options.php:58
+msgid "Font Size"
+msgstr ""
+
+#: inc/customizer/aasta-panels-and-sections.php:61
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/aasta-customizer-options.php:152
+#: inc/customizer/aasta-panels-and-sections.php:74
+msgid "Footer Copyright"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/aasta-footer-copyright-customizer-settings.php:29
+msgid "Footer Copyright Enable/Disable"
+msgstr ""
+
+#: functions.php:125
+msgid "Footer Sidebar Four"
+msgstr ""
+
+#: functions.php:122
+msgid "Footer Sidebar One"
+msgstr ""
+
+#: functions.php:124
+msgid "Footer Sidebar Three"
+msgstr ""
+
+#: functions.php:123
+msgid "Footer Sidebar Two"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/aasta-footer-widget-customizer-settings.php:30
+msgid "Footer Widget Area Enable/Disable"
+msgstr ""
+
+#: inc/customizer/aasta-panels-and-sections.php:67
+msgid "Footer Widgets"
+msgstr ""
+
+#: inc/customizer/controls/code/aasta-customize-plugin-control.php:27
+msgid "Free Vs Pro Features"
+msgstr ""
+
+#. Name of the template
+msgid "Frontpage"
+msgstr ""
+
+#: inc/metabox.php:23
+msgid "Full Width"
+msgstr ""
+
+#: inc/customizer/aasta-panels-and-sections.php:19
+#: inc/customizer/aasta-panels-and-sections.php:51
+msgid "General"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/aasta-general-customizer-settings.php:29
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer/controls/code/aasta-customize-plugin-control.php:25
+msgid "Get Full Support"
+msgstr ""
+
+#. 1: welcome page link starting html tag, 2: welcome page link ending html tag.
+#: inc/template-tags.php:334
+#, php-format
+msgid "Get started with %1$s"
+msgstr ""
+
+#: searchform.php:4
+msgid "Go"
+msgstr ""
+
+#: 404.php:22
+msgid "Go to Home"
+msgstr ""
+
+#: inc/customizer/controls/code/aasta-customize-typography-control.php:50
+msgid "Google Fonts"
+msgstr ""
+
+#: inc/customizer/aasta-panels-and-sections.php:27
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/aasta-panels-and-sections.php:105
+msgid "Headings H1"
+msgstr ""
+
+#: inc/customizer/aasta-panels-and-sections.php:111
+msgid "Headings H2"
+msgstr ""
+
+#: inc/customizer/aasta-panels-and-sections.php:117
+msgid "Headings H3"
+msgstr ""
+
+#: inc/customizer/aasta-panels-and-sections.php:123
+msgid "Headings H4"
+msgstr ""
+
+#: inc/customizer/aasta-panels-and-sections.php:129
+msgid "Headings H5"
+msgstr ""
+
+#: inc/customizer/aasta-panels-and-sections.php:135
+msgid "Headings H6"
+msgstr ""
+
+#: inc/template-tags.php:166 inc/template-tags.php:169
+msgid "Home"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themearile.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://themearile.com/aasta-theme/"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:537
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:597
+msgid "Icon"
+msgstr ""
+
+#. %s: plugin name
+#: inc/customizer/aasta-customizer-options.php:174
+#, php-format
+msgid ""
+"If you want to show all the features and business sections of the FrontPage. "
+"please install and activate %s plugin"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:560
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:598
+msgid "Image"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:594
+msgid "Image type"
+msgstr ""
+
+#: inc/customizer/aasta-customizer-options.php:181
+msgid "Install and Activate"
+msgstr ""
+
+#: template-parts/content-none.php:42
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/aasta-blog-general-customizer-settings.php:85
+#: inc/customizer/customizer-settings/theme-settings/aasta-blog-general-customizer-settings.php:113
+msgid "Layout"
+msgstr ""
+
+#: comments.php:69
+msgid "Leave a Reply"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:576
+msgid "Left"
+msgstr ""
+
+#: inc/metabox.php:28
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:290
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:437
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:621
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:643
+msgid "Link"
+msgstr ""
+
+#: comments.php:65
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:65
+msgid "Logged in as"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/aasta-blog-general-customizer-settings.php:135
+msgid "Logo Width"
+msgstr ""
+
+#: comments.php:65
+msgid "Logout"
+msgstr ""
+
+#: inc/customizer/aasta-panels-and-sections.php:36
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/aasta-menu-bar-customizer-settings.php:27
+msgid "Menu Settings"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/aasta-menu-bar-customizer-settings.php:42
+msgid "Menu Style"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/aasta-blog-general-customizer-settings.php:47
+msgid "Meta"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/aasta-blog-general-customizer-settings.php:61
+msgid "Meta Date Enable/Disable"
+msgstr ""
+
+#: comments.php:54
+msgid "Name"
+msgstr ""
+
+#: comments.php:38
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:525
+msgid "No"
+msgstr ""
+
+#: comments.php:26
+msgid "No Comments"
+msgstr ""
+
+#: inc/customizer/customizer-settings/aasta-customize-base-customizer-settings.php:74
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:599
+msgid "None"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:542
+#, php-format
+msgid ""
+"Note: Some icons may not be displayed here. You can see the full list of "
+"icons at %1$s."
+msgstr ""
+
+#: comments.php:26
+msgid "One comment"
+msgstr ""
+
+#: 404.php:20
+msgid "OOPS, SORRY WE CAN'T FIND THAT PAGE !"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:521
+msgid "Open link in new tab"
+msgstr ""
+
+#: inc/customizer/aasta-customizer-options.php:21
+#: inc/customizer/customizer-settings/theme-settings/aasta-page-header-customizer-settings.php:29
+msgid "Page Header"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/aasta-page-header-customizer-settings.php:42
+msgid "Page Header Enable/Disable"
+msgstr ""
+
+#: template-parts/content-page.php:22 template-parts/content.php:52
+msgid "Pages:"
+msgstr ""
+
+#: functions.php:48
+msgid "Primary"
+msgstr ""
+
+#: inc/template-tags.php:76 template-parts/content-single.php:46
+#: template-parts/content.php:51
+msgid "Read More"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/customizer/aasta-customizer-options.php:179
+msgid "Recommended Actions"
+msgstr ""
+
+#: inc/customizer/aasta-customizer-options.php:180
+msgid "Recommended Plugin"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:624
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:654
+msgid "Remove Icon"
+msgstr ""
+
+#: inc/customizer/controls/code/aasta-customize-slider-control.php:70
+msgid "Reset"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:580
+msgid "Right"
+msgstr ""
+
+#: inc/metabox.php:18
+msgid "Right Sidebar"
+msgstr ""
+
+#: searchform.php:2
+msgid "Search"
+msgstr ""
+
+#: inc/template-tags.php:130
+msgid "Search results for"
+msgstr ""
+
+#: inc/customizer/controls/code/aasta-customize-base-control.php:29
+msgid "Select Color"
+msgstr ""
+
+#: inc/customizer/controls/code/aasta-customize-base-control.php:28
+msgid "Select default color"
+msgstr ""
+
+#: inc/customizer/aasta-customizer-options.php:31
+msgid "Set Sticky Bar Logo"
+msgstr ""
+
+#: inc/customizer/controls/code/aasta-customize-plugin-control.php:31
+msgid "Share a Good Review"
+msgstr ""
+
+#: inc/template-tags.php:113
+msgid "Shop"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:343
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:466
+msgid "Shortcode"
+msgstr ""
+
+#: inc/metabox.php:10
+msgid "Sidebar Layout"
+msgstr ""
+
+#: functions.php:121
+msgid "Sidebar Widget Area"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/aasta-blog-general-customizer-settings.php:100
+msgid "Single Blog Pages"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/aasta-general-customizer-settings.php:42
+msgid "Site Animation Enable/Disable"
+msgstr ""
+
+#: header.php:26
+msgid "Skip to content"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:572
+msgid "Slide Content Format"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:607
+msgid "Social icons"
+msgstr ""
+
+#: template-parts/content-none.php:35
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/customizer/controls/code/aasta-customize-typography-control.php:39
+msgid "Standard Fonts"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/aasta-menu-bar-customizer-settings.php:46
+msgid "Static"
+msgstr ""
+
+#: inc/customizer/customizer-settings/theme-settings/aasta-menu-bar-customizer-settings.php:45
+msgid "Sticky"
+msgstr ""
+
+#: comments.php:67
+msgid "Submit"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:263
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:412
+msgid "Subtitle"
+msgstr ""
+
+#: inc/template-tags.php:110
+msgid "Tag"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:270
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:419
+msgid "Text"
+msgstr ""
+
+#: inc/customizer/aasta-panels-and-sections.php:12
+msgid "Theme Options"
+msgstr ""
+
+#: inc/template-tags.php:317
+msgid "Theme Screenshot"
+msgstr ""
+
+#. Author of the theme
+msgid "ThemeArile"
+msgstr ""
+
+#: comments.php:20
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:256
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:405
+#: inc/customizer/customizer-settings/theme-settings/aasta-blog-general-customizer-settings.php:46
+msgid "Title"
+msgstr ""
+
+#: inc/template-tags.php:328
+msgid ""
+"To take full advantage of all the features of this theme, please install and "
+"activate the <strong>Arile Super</strong> plugin, then enjoy this theme."
+msgstr ""
+
+#: template-parts/site-navbar.php:12
+msgid "Toggle navigation"
+msgstr ""
+
+#: inc/customizer/aasta-panels-and-sections.php:85
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer/controls/code/aasta-customize-plugin-control.php:11
+#: inc/customizer/controls/code/aasta-customize-plugin-control.php:29
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:563
+msgid "Upload Image"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:309
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:455
+msgid "Video Url"
+msgstr ""
+
+#: inc/customizer/controls/code/aasta-customize-plugin-control.php:23
+msgid "View Documentation"
+msgstr ""
+
+#. 1: welcome page link starting html tag, 2: welcome page link ending html tag.
+#: inc/template-tags.php:324
+#, php-format
+msgid "Welcome! Thank you for choosing %1$s!"
+msgstr ""
+
+#: functions.php:129
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:528
+msgid "Yes"
+msgstr ""
+
+#: inc/customizer/aasta-customizer-options.php:59
+msgid "You can enter font-size in px or rem "
+msgstr ""
+
+#: inc/customizer/aasta-customizer-options.php:32
+msgid "You can Upload the Standrad size of logo (210px*39px)"
+msgstr ""
+
+#. %1$s %2$s: logged in
+#: comments.php:48
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment"
+msgstr ""
+
+#: inc/template-tags.php:59
+msgid "Your comment is awaiting moderation."
+msgstr ""

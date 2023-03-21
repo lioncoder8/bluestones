@@ -1,0 +1,19 @@
+/*User stick note*/
+.control-section-plugin-section .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 700;
+	margin-left: 8px;
+    background: #fff;
+    color: #061018;
+    border-color: #fff;
+    padding: 0 20px 1px;
+}
+
+.control-section-plugin-section .accordion-section-title .button:hover,
+.control-section-plugin-section .accordion-section-title .button:focus{
+  background: #fff;
+  border-color: #fff;
+}
+#customize-controls .control-section-plugin-section.cannot-expand .accordion-section-title, #customize-controls .control-section-plugin-section.cannot-expand:hover .accordion-section-title{
+	background: #0085ba; color:#fff;
+}
